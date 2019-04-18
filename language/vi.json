@@ -1,40 +1,40 @@
 {
   "semantics": [
     {
-      "label": "Image Hotspot Question Editor",
+      "label": "Trình chỉnh sửa câu hỏi Điểm nóng hình ảnh",
       "fields": [
         {
-          "label": "Background image",
+          "label": "Hình ảnh nền",
           "fields": [
             {
-              "label": "Background image",
-              "description": "Select an image to use as background the image hotspot question."
+              "label": "Hình ảnh nền",
+              "description": "Chọn một hình ảnh để sử dụng làm nền cho câu hỏi điểm nóng hình ảnh."
             }
           ]
         },
         {
-          "label": "Hotspots",
-          "description": "Drag and drop the desired figure from the toolbar to create a new hotspot. Double-click to edit an existing hotspot. Drag the hotspot to move it. Pull the resize handler in the lower right corner to resize.",
+          "label": "Điểm nóng",
+          "description": "Kéo và thả hình mong muốn từ thanh công cụ để tạo một điểm nóng mới. Nhấp đúp để chỉnh sửa một điểm nóng hiện có. Kéo điểm nóng để di chuyển nó. Kéo trình xử lý thay đổi kích thước ở góc dưới bên phải để thay đổi kích thước.",
           "fields": [
             {
-              "label": "Task description",
-              "description": "Instructions to the user."
+              "label": "Mô tả nhiệm vụ",
+              "description": "Hướng dẫn cho người dùng"
             },
             {
-              "label": "Hotspot",
+              "label": "Điểm nóng",
               "entity": "Hotspot",
               "field": {
-                "label": "Hotspot",
+                "label": "Điểm nóng",
                 "fields": [
                   {
                     "label": "userSettings",
                     "fields": [
                       {
-                        "label": "Correct",
-                        "description": "There can be multiple correct hotspots. However, the user gets correct/incorrect feedback immediately after first click."
+                        "label": "Đúng",
+                        "description": "Có thể có nhiều điểm nóng đúng. Tuy nhiên, người dùng nhận được phản hồi đúng/không đúng ngay sau lần nhấp đầu tiên."
                       },
                       {
-                        "label": "Feedback"
+                        "label": "Phản hồi"
                       }
                     ]
                   },
@@ -45,22 +45,22 @@
               }
             },
             {
-              "label": "Feedback if the user selects an empty spot:",
-              "placeholder": "You didn't locate any hotspots, try again!"
+              "label": "Phản hồi nếu người dùng chọn một điểm trống:",
+              "placeholder": "Bạn không tìm thấy bất kỳ điểm nóng nào, hãy thử lại!"
             },
             {
-              "label": "Show feedback as a popup"
+              "label": "Hiển thị phản hồi dưới dạng cửa sổ bật lên"
             },
             {
-              "label": "Localization",
+              "label": "Bản địa hóa",
               "fields": [
                 {
-                  "label": "Retry button text",
-                  "default": "Retry"
+                  "label": "Văn bản nút thử lại",
+                  "default": "Thử lại"
                 },
                 {
-                  "label": "Close button text",
-                  "default": "Close"
+                  "label": "Văn bản nút đóng",
+                  "default": "Đóng"
                 }
               ]
             }
@@ -69,8 +69,8 @@
       ]
     },
     {
-      "label": "Textual representation of the score bar for those using a readspeaker",
-      "default": "You got :num out of :total points"
+      "label": "Trình bày văn bản của thanh điểm cho những người sử dụng máy đọc",
+      "default": "Bạn nhận được :num trong of :total điểm"
     }
   ]
 }
